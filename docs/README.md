@@ -45,7 +45,7 @@ typst --version
 Numa nova sessão do terminal, rode o comando abaixo para compilar o arquivo `report.typ` e gerar o PDF `report.pdf` (os dois estão em `docs`).
 
 ```bash
-typst watch docs/report.typ docs/report.pdf
+typst watch --root . docs/report.typ docs/report.pdf
 ```
 
 A opção `watch` mantém o Typst observando o arquivo `.typ` e recompila o PDF automaticamente sempre que houver uma alteração salva.
