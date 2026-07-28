@@ -5,7 +5,7 @@
 #set text(lang: "pt")
 
 #align(center)[
-  (Nome do estudante)
+  Diego Souza
   #title()
 ]
 
@@ -15,7 +15,7 @@ Nesse relatório, apresentamos uma análise detalhada dos dados.
 
 = Introdução
 
-Agora, vamos explorar os dados coletados e identificar padrões significativos.
+Estou apenas fazendo um teste para ver como e exibido no arquivo pdf que iremos utilizar na prova
 
 #figure(
   image("../images/advanced-options.webp", width: 50%),

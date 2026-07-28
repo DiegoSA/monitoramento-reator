@@ -1,6 +1,11 @@
-def main():
-    print("Olá desde monitoramento-reator!")
+""" Programing Exercise"""
 
+import pandas as pd
+import matplotlib.pyplot as plt
 
-if __name__ == "__main__":
-    main()
+df = pd.read_csv("/workspaces/monitoramento-reator/data/process.csv")
+
+df['reactor_temp'].hist()
+plt.savefig("/workspaces/monitoramento-reator/images/reactor_temp.png")
+
+plt.close()
